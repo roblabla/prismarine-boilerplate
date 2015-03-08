@@ -4,6 +4,7 @@
   "description": "Boilerplate description",
   "main": "index.js",
   "scripts": {
+    "prepublish": "node_modules/.bin/gulp",
     "test": "mocha"
   },
   "repository": {
